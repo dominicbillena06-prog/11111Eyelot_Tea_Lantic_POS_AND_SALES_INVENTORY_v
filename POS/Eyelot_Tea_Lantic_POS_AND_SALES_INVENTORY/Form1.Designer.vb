@@ -790,13 +790,12 @@ Partial Class Form1
         '
         'solo_sizzlers_b1
         '
-        Me.solo_sizzlers_b1.BackgroundImage = Global.Eyelot_Tea_Lantic_POS_AND_SALES_INVENTORY.My.Resources.Resources.Image__4_
+        Me.solo_sizzlers_b1.BackgroundImage = Global.Eyelot_Tea_Lantic_POS_AND_SALES_INVENTORY.My.Resources.Resources.Image__4_1
         Me.solo_sizzlers_b1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.solo_sizzlers_b1.Location = New System.Drawing.Point(14, 16)
         Me.solo_sizzlers_b1.Name = "solo_sizzlers_b1"
         Me.solo_sizzlers_b1.Size = New System.Drawing.Size(255, 214)
         Me.solo_sizzlers_b1.TabIndex = 0
-        Me.solo_sizzlers_b1.Text = "Button20"
         Me.solo_sizzlers_b1.UseVisualStyleBackColor = True
         '
         'Button19
