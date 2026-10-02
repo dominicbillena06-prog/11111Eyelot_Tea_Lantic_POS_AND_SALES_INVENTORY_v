@@ -59,17 +59,17 @@ Partial Class Form1
         Me.Label10 = New System.Windows.Forms.Label()
         Me.pnlORDERS = New System.Windows.Forms.Panel()
         Me.pnlCategory = New System.Windows.Forms.Panel()
-        Me.Button14 = New System.Windows.Forms.Button()
-        Me.Button13 = New System.Windows.Forms.Button()
-        Me.Button12 = New System.Windows.Forms.Button()
-        Me.Button11 = New System.Windows.Forms.Button()
-        Me.Button10 = New System.Windows.Forms.Button()
-        Me.Button9 = New System.Windows.Forms.Button()
-        Me.Button8 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
+        Me.btncat11 = New System.Windows.Forms.Button()
+        Me.btncat10 = New System.Windows.Forms.Button()
+        Me.btncat9 = New System.Windows.Forms.Button()
+        Me.btncat8 = New System.Windows.Forms.Button()
+        Me.btncat7 = New System.Windows.Forms.Button()
+        Me.btncat6 = New System.Windows.Forms.Button()
+        Me.btncat5 = New System.Windows.Forms.Button()
+        Me.btncat4 = New System.Windows.Forms.Button()
+        Me.btncat3 = New System.Windows.Forms.Button()
+        Me.btncat2 = New System.Windows.Forms.Button()
+        Me.btncat1 = New System.Windows.Forms.Button()
         Me.pnlHeader = New System.Windows.Forms.Panel()
         Me.Lbldate = New System.Windows.Forms.Label()
         Me.Lblcurrent_user_name = New System.Windows.Forms.Label()
@@ -89,7 +89,7 @@ Partial Class Form1
         Me.solo_sizzlers_b4 = New System.Windows.Forms.Button()
         Me.solo_sizzlers_b3 = New System.Windows.Forms.Button()
         Me.solo_sizzlers_b2 = New System.Windows.Forms.Button()
-        Me.solo_sizzlers_b1 = New System.Windows.Forms.Button()
+        Me.btnsolo_sizzlers_b1 = New System.Windows.Forms.Button()
         Me.btnvoid = New System.Windows.Forms.Button()
         Me.btnclear = New System.Windows.Forms.Button()
         Me.btndelete = New System.Windows.Forms.Button()
@@ -102,6 +102,7 @@ Partial Class Form1
         Me.btnlogout = New System.Windows.Forms.Button()
         Me.btnadmin_mode = New System.Windows.Forms.Button()
         Me.Label24 = New System.Windows.Forms.Label()
+        Me.DataGridView_orders = New System.Windows.Forms.DataGridView()
         Me.pnlMain.SuspendLayout()
         Me.pnlMenu.SuspendLayout()
         Me.pnlsolo_sizzlers.SuspendLayout()
@@ -112,9 +113,11 @@ Partial Class Form1
         Me.RoundedPanel2.SuspendLayout()
         Me.RoundedPanel1.SuspendLayout()
         Me.pnlCalculations.SuspendLayout()
+        Me.pnlORDERS.SuspendLayout()
         Me.pnlCategory.SuspendLayout()
         Me.pnlHeader.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DataGridView_orders, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'pnlMain
@@ -161,7 +164,7 @@ Partial Class Form1
         Me.pnlsolo_sizzlers.Controls.Add(Me.solo_sizzlers_b4)
         Me.pnlsolo_sizzlers.Controls.Add(Me.solo_sizzlers_b3)
         Me.pnlsolo_sizzlers.Controls.Add(Me.solo_sizzlers_b2)
-        Me.pnlsolo_sizzlers.Controls.Add(Me.solo_sizzlers_b1)
+        Me.pnlsolo_sizzlers.Controls.Add(Me.btnsolo_sizzlers_b1)
         Me.pnlsolo_sizzlers.Location = New System.Drawing.Point(-1, -1)
         Me.pnlsolo_sizzlers.Name = "pnlsolo_sizzlers"
         Me.pnlsolo_sizzlers.Size = New System.Drawing.Size(1053, 973)
@@ -179,7 +182,7 @@ Partial Class Form1
         'solo_sizzlers_b15
         '
         Me.solo_sizzlers_b15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.solo_sizzlers_b15.Location = New System.Drawing.Point(543, 692)
+        Me.solo_sizzlers_b15.Location = New System.Drawing.Point(545, 692)
         Me.solo_sizzlers_b15.Name = "solo_sizzlers_b15"
         Me.solo_sizzlers_b15.Size = New System.Drawing.Size(234, 214)
         Me.solo_sizzlers_b15.TabIndex = 14
@@ -215,7 +218,7 @@ Partial Class Form1
         'solo_sizzlers_b11
         '
         Me.solo_sizzlers_b11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.solo_sizzlers_b11.Location = New System.Drawing.Point(543, 466)
+        Me.solo_sizzlers_b11.Location = New System.Drawing.Point(545, 466)
         Me.solo_sizzlers_b11.Name = "solo_sizzlers_b11"
         Me.solo_sizzlers_b11.Size = New System.Drawing.Size(234, 214)
         Me.solo_sizzlers_b11.TabIndex = 10
@@ -495,6 +498,7 @@ Partial Class Form1
         '
         Me.pnlORDERS.BackColor = System.Drawing.Color.Snow
         Me.pnlORDERS.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.pnlORDERS.Controls.Add(Me.DataGridView_orders)
         Me.pnlORDERS.Location = New System.Drawing.Point(1, 119)
         Me.pnlORDERS.Name = "pnlORDERS"
         Me.pnlORDERS.Size = New System.Drawing.Size(644, 574)
@@ -503,132 +507,132 @@ Partial Class Form1
         'pnlCategory
         '
         Me.pnlCategory.BackColor = System.Drawing.Color.YellowGreen
-        Me.pnlCategory.Controls.Add(Me.Button14)
-        Me.pnlCategory.Controls.Add(Me.Button13)
-        Me.pnlCategory.Controls.Add(Me.Button12)
-        Me.pnlCategory.Controls.Add(Me.Button11)
-        Me.pnlCategory.Controls.Add(Me.Button10)
-        Me.pnlCategory.Controls.Add(Me.Button9)
-        Me.pnlCategory.Controls.Add(Me.Button8)
-        Me.pnlCategory.Controls.Add(Me.Button7)
-        Me.pnlCategory.Controls.Add(Me.Button6)
-        Me.pnlCategory.Controls.Add(Me.Button5)
-        Me.pnlCategory.Controls.Add(Me.Button4)
+        Me.pnlCategory.Controls.Add(Me.btncat11)
+        Me.pnlCategory.Controls.Add(Me.btncat10)
+        Me.pnlCategory.Controls.Add(Me.btncat9)
+        Me.pnlCategory.Controls.Add(Me.btncat8)
+        Me.pnlCategory.Controls.Add(Me.btncat7)
+        Me.pnlCategory.Controls.Add(Me.btncat6)
+        Me.pnlCategory.Controls.Add(Me.btncat5)
+        Me.pnlCategory.Controls.Add(Me.btncat4)
+        Me.pnlCategory.Controls.Add(Me.btncat3)
+        Me.pnlCategory.Controls.Add(Me.btncat2)
+        Me.pnlCategory.Controls.Add(Me.btncat1)
         Me.pnlCategory.Location = New System.Drawing.Point(1689, 119)
         Me.pnlCategory.Name = "pnlCategory"
         Me.pnlCategory.Size = New System.Drawing.Size(217, 925)
         Me.pnlCategory.TabIndex = 7
         '
-        'Button14
+        'btncat11
         '
-        Me.Button14.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button14.Location = New System.Drawing.Point(34, 844)
-        Me.Button14.Name = "Button14"
-        Me.Button14.Size = New System.Drawing.Size(181, 78)
-        Me.Button14.TabIndex = 10
-        Me.Button14.Text = "ADD ONS"
-        Me.Button14.UseVisualStyleBackColor = True
+        Me.btncat11.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btncat11.Location = New System.Drawing.Point(34, 844)
+        Me.btncat11.Name = "btncat11"
+        Me.btncat11.Size = New System.Drawing.Size(181, 78)
+        Me.btncat11.TabIndex = 10
+        Me.btncat11.Text = "ADD ONS"
+        Me.btncat11.UseVisualStyleBackColor = True
         '
-        'Button13
+        'btncat10
         '
-        Me.Button13.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button13.Location = New System.Drawing.Point(34, 760)
-        Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(181, 78)
-        Me.Button13.TabIndex = 9
-        Me.Button13.Text = "BEVERAGES"
-        Me.Button13.UseVisualStyleBackColor = True
+        Me.btncat10.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btncat10.Location = New System.Drawing.Point(34, 760)
+        Me.btncat10.Name = "btncat10"
+        Me.btncat10.Size = New System.Drawing.Size(181, 78)
+        Me.btncat10.TabIndex = 9
+        Me.btncat10.Text = "BEVERAGES"
+        Me.btncat10.UseVisualStyleBackColor = True
         '
-        'Button12
+        'btncat9
         '
-        Me.Button12.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button12.Location = New System.Drawing.Point(34, 676)
-        Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(181, 78)
-        Me.Button12.TabIndex = 8
-        Me.Button12.Text = "MILKTEA"
-        Me.Button12.UseVisualStyleBackColor = True
+        Me.btncat9.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btncat9.Location = New System.Drawing.Point(34, 676)
+        Me.btncat9.Name = "btncat9"
+        Me.btncat9.Size = New System.Drawing.Size(181, 78)
+        Me.btncat9.TabIndex = 8
+        Me.btncat9.Text = "MILKTEA"
+        Me.btncat9.UseVisualStyleBackColor = True
         '
-        'Button11
+        'btncat8
         '
-        Me.Button11.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button11.Location = New System.Drawing.Point(34, 592)
-        Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(181, 78)
-        Me.Button11.TabIndex = 7
-        Me.Button11.Text = "ALL DAY PARTY BUNDLES"
-        Me.Button11.UseVisualStyleBackColor = True
+        Me.btncat8.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btncat8.Location = New System.Drawing.Point(34, 592)
+        Me.btncat8.Name = "btncat8"
+        Me.btncat8.Size = New System.Drawing.Size(181, 78)
+        Me.btncat8.TabIndex = 7
+        Me.btncat8.Text = "ALL DAY PARTY BUNDLES"
+        Me.btncat8.UseVisualStyleBackColor = True
         '
-        'Button10
+        'btncat7
         '
-        Me.Button10.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button10.Location = New System.Drawing.Point(34, 508)
-        Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(181, 78)
-        Me.Button10.TabIndex = 6
-        Me.Button10.Text = "PIZZA BUNDLES"
-        Me.Button10.UseVisualStyleBackColor = True
+        Me.btncat7.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btncat7.Location = New System.Drawing.Point(34, 508)
+        Me.btncat7.Name = "btncat7"
+        Me.btncat7.Size = New System.Drawing.Size(181, 78)
+        Me.btncat7.TabIndex = 6
+        Me.btncat7.Text = "PIZZA BUNDLES"
+        Me.btncat7.UseVisualStyleBackColor = True
         '
-        'Button9
+        'btncat6
         '
-        Me.Button9.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button9.Location = New System.Drawing.Point(34, 424)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(181, 78)
-        Me.Button9.TabIndex = 5
-        Me.Button9.Text = "PIZZA"
-        Me.Button9.UseVisualStyleBackColor = True
+        Me.btncat6.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btncat6.Location = New System.Drawing.Point(34, 424)
+        Me.btncat6.Name = "btncat6"
+        Me.btncat6.Size = New System.Drawing.Size(181, 78)
+        Me.btncat6.TabIndex = 5
+        Me.btncat6.Text = "PIZZA"
+        Me.btncat6.UseVisualStyleBackColor = True
         '
-        'Button8
+        'btncat5
         '
-        Me.Button8.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button8.Location = New System.Drawing.Point(34, 340)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(181, 78)
-        Me.Button8.TabIndex = 4
-        Me.Button8.Text = "PANSIT"
-        Me.Button8.UseVisualStyleBackColor = True
+        Me.btncat5.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btncat5.Location = New System.Drawing.Point(34, 340)
+        Me.btncat5.Name = "btncat5"
+        Me.btncat5.Size = New System.Drawing.Size(181, 78)
+        Me.btncat5.TabIndex = 4
+        Me.btncat5.Text = "PANSIT"
+        Me.btncat5.UseVisualStyleBackColor = True
         '
-        'Button7
+        'btncat4
         '
-        Me.Button7.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button7.Location = New System.Drawing.Point(34, 256)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(181, 78)
-        Me.Button7.TabIndex = 3
-        Me.Button7.Text = "CHICKEN WINGS"
-        Me.Button7.UseVisualStyleBackColor = True
+        Me.btncat4.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btncat4.Location = New System.Drawing.Point(34, 256)
+        Me.btncat4.Name = "btncat4"
+        Me.btncat4.Size = New System.Drawing.Size(181, 78)
+        Me.btncat4.TabIndex = 3
+        Me.btncat4.Text = "CHICKEN WINGS"
+        Me.btncat4.UseVisualStyleBackColor = True
         '
-        'Button6
+        'btncat3
         '
-        Me.Button6.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button6.Location = New System.Drawing.Point(34, 172)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(181, 78)
-        Me.Button6.TabIndex = 2
-        Me.Button6.Text = "MAIN DISHES"
-        Me.Button6.UseVisualStyleBackColor = True
+        Me.btncat3.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btncat3.Location = New System.Drawing.Point(34, 172)
+        Me.btncat3.Name = "btncat3"
+        Me.btncat3.Size = New System.Drawing.Size(181, 78)
+        Me.btncat3.TabIndex = 2
+        Me.btncat3.Text = "MAIN DISHES"
+        Me.btncat3.UseVisualStyleBackColor = True
         '
-        'Button5
+        'btncat2
         '
-        Me.Button5.BackColor = System.Drawing.SystemColors.ButtonFace
-        Me.Button5.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.Location = New System.Drawing.Point(34, 88)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(181, 78)
-        Me.Button5.TabIndex = 1
-        Me.Button5.Text = "SOLO SISIG"
-        Me.Button5.UseVisualStyleBackColor = False
+        Me.btncat2.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.btncat2.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btncat2.Location = New System.Drawing.Point(34, 88)
+        Me.btncat2.Name = "btncat2"
+        Me.btncat2.Size = New System.Drawing.Size(181, 78)
+        Me.btncat2.TabIndex = 1
+        Me.btncat2.Text = "SOLO SISIG"
+        Me.btncat2.UseVisualStyleBackColor = False
         '
-        'Button4
+        'btncat1
         '
-        Me.Button4.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(34, 4)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(181, 78)
-        Me.Button4.TabIndex = 0
-        Me.Button4.Text = "SOLO SIZZLERS"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.btncat1.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btncat1.Location = New System.Drawing.Point(34, 4)
+        Me.btncat1.Name = "btncat1"
+        Me.btncat1.Size = New System.Drawing.Size(181, 78)
+        Me.btncat1.TabIndex = 0
+        Me.btncat1.Text = "SOLO SIZZLERS"
+        Me.btncat1.UseVisualStyleBackColor = True
         '
         'pnlHeader
         '
@@ -770,7 +774,7 @@ Partial Class Form1
         '
         Me.solo_sizzlers_b7.BackgroundImage = Global.Eyelot_Tea_Lantic_POS_AND_SALES_INVENTORY.My.Resources.Resources.Image__10_1
         Me.solo_sizzlers_b7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.solo_sizzlers_b7.Location = New System.Drawing.Point(543, 241)
+        Me.solo_sizzlers_b7.Location = New System.Drawing.Point(545, 241)
         Me.solo_sizzlers_b7.Name = "solo_sizzlers_b7"
         Me.solo_sizzlers_b7.Size = New System.Drawing.Size(234, 214)
         Me.solo_sizzlers_b7.TabIndex = 6
@@ -810,7 +814,7 @@ Partial Class Form1
         '
         Me.solo_sizzlers_b3.BackgroundImage = Global.Eyelot_Tea_Lantic_POS_AND_SALES_INVENTORY.My.Resources.Resources.Image__6_1
         Me.solo_sizzlers_b3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.solo_sizzlers_b3.Location = New System.Drawing.Point(543, 16)
+        Me.solo_sizzlers_b3.Location = New System.Drawing.Point(545, 16)
         Me.solo_sizzlers_b3.Name = "solo_sizzlers_b3"
         Me.solo_sizzlers_b3.Size = New System.Drawing.Size(234, 214)
         Me.solo_sizzlers_b3.TabIndex = 2
@@ -826,15 +830,15 @@ Partial Class Form1
         Me.solo_sizzlers_b2.TabIndex = 1
         Me.solo_sizzlers_b2.UseVisualStyleBackColor = True
         '
-        'solo_sizzlers_b1
+        'btnsolo_sizzlers_b1
         '
-        Me.solo_sizzlers_b1.BackgroundImage = Global.Eyelot_Tea_Lantic_POS_AND_SALES_INVENTORY.My.Resources.Resources.Image__4_1
-        Me.solo_sizzlers_b1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.solo_sizzlers_b1.Location = New System.Drawing.Point(14, 16)
-        Me.solo_sizzlers_b1.Name = "solo_sizzlers_b1"
-        Me.solo_sizzlers_b1.Size = New System.Drawing.Size(255, 214)
-        Me.solo_sizzlers_b1.TabIndex = 0
-        Me.solo_sizzlers_b1.UseVisualStyleBackColor = True
+        Me.btnsolo_sizzlers_b1.BackgroundImage = Global.Eyelot_Tea_Lantic_POS_AND_SALES_INVENTORY.My.Resources.Resources.Image__4_1
+        Me.btnsolo_sizzlers_b1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btnsolo_sizzlers_b1.Location = New System.Drawing.Point(14, 16)
+        Me.btnsolo_sizzlers_b1.Name = "btnsolo_sizzlers_b1"
+        Me.btnsolo_sizzlers_b1.Size = New System.Drawing.Size(255, 214)
+        Me.btnsolo_sizzlers_b1.TabIndex = 0
+        Me.btnsolo_sizzlers_b1.UseVisualStyleBackColor = True
         '
         'btnvoid
         '
@@ -968,6 +972,17 @@ Partial Class Form1
         Me.Label24.TabIndex = 13
         Me.Label24.Text = "Search Item"
         '
+        'DataGridView_orders
+        '
+        Me.DataGridView_orders.BackgroundColor = System.Drawing.SystemColors.ButtonFace
+        Me.DataGridView_orders.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView_orders.Location = New System.Drawing.Point(8, 8)
+        Me.DataGridView_orders.Name = "DataGridView_orders"
+        Me.DataGridView_orders.RowHeadersWidth = 51
+        Me.DataGridView_orders.RowTemplate.Height = 24
+        Me.DataGridView_orders.Size = New System.Drawing.Size(620, 546)
+        Me.DataGridView_orders.TabIndex = 0
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(120.0!, 120.0!)
@@ -994,10 +1009,12 @@ Partial Class Form1
         Me.RoundedPanel1.PerformLayout()
         Me.pnlCalculations.ResumeLayout(False)
         Me.pnlCalculations.PerformLayout()
+        Me.pnlORDERS.ResumeLayout(False)
         Me.pnlCategory.ResumeLayout(False)
         Me.pnlHeader.ResumeLayout(False)
         Me.pnlHeader.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DataGridView_orders, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -1011,17 +1028,17 @@ Partial Class Form1
     Friend WithEvents btnsales_inventory As Button
     Friend WithEvents Label3 As Label
     Friend WithEvents pnlCategory As Panel
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button5 As Button
-    Friend WithEvents Button14 As Button
-    Friend WithEvents Button13 As Button
-    Friend WithEvents Button12 As Button
-    Friend WithEvents Button11 As Button
-    Friend WithEvents Button10 As Button
-    Friend WithEvents Button9 As Button
-    Friend WithEvents Button8 As Button
-    Friend WithEvents Button7 As Button
-    Friend WithEvents Button6 As Button
+    Friend WithEvents btncat1 As Button
+    Friend WithEvents btncat2 As Button
+    Friend WithEvents btncat11 As Button
+    Friend WithEvents btncat10 As Button
+    Friend WithEvents btncat9 As Button
+    Friend WithEvents btncat8 As Button
+    Friend WithEvents btncat7 As Button
+    Friend WithEvents btncat6 As Button
+    Friend WithEvents btncat5 As Button
+    Friend WithEvents btncat4 As Button
+    Friend WithEvents btncat3 As Button
     Friend WithEvents pnlORDERS As Panel
     Friend WithEvents pnlORDER_ACTIONS As Panel
     Friend WithEvents pnlCalculations As Panel
@@ -1063,7 +1080,7 @@ Partial Class Form1
     Friend WithEvents solo_sizzlers_b4 As Button
     Friend WithEvents solo_sizzlers_b3 As Button
     Friend WithEvents solo_sizzlers_b2 As Button
-    Friend WithEvents solo_sizzlers_b1 As Button
+    Friend WithEvents btnsolo_sizzlers_b1 As Button
     Friend WithEvents solo_sizzlers_b12 As Button
     Friend WithEvents solo_sizzlers_b11 As Button
     Friend WithEvents solo_sizzlers_10 As Button
@@ -1082,4 +1099,5 @@ Partial Class Form1
     Friend WithEvents Lbldate As Label
     Friend WithEvents btnsearch_item As Button
     Friend WithEvents Label24 As Label
+    Friend WithEvents DataGridView_orders As DataGridView
 End Class
