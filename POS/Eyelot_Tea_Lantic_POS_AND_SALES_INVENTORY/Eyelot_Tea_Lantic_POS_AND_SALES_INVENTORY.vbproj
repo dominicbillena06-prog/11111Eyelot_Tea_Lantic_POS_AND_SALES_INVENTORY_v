@@ -236,5 +236,11 @@
   <ItemGroup>
     <None Include="Resources\Image %2811%29.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Code_Generated_Image-removebg-preview.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

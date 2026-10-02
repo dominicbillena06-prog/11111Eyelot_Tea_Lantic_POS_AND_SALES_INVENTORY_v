@@ -8,7 +8,7 @@
 
     End Sub
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles btnsales_inventory.Click
 
     End Sub
 
@@ -16,7 +16,7 @@
 
     End Sub
 
-    Private Sub Button28_Click(sender As Object, e As EventArgs) Handles Button28.Click
+    Private Sub Button28_Click(sender As Object, e As EventArgs) Handles solo_sizzlers_b12.Click
 
     End Sub
 End Class
