@@ -25,21 +25,10 @@ Partial Class Form1
         Me.pnlMain = New System.Windows.Forms.Panel()
         Me.pnlMenu = New System.Windows.Forms.Panel()
         Me.pnlsolo_sizzlers = New System.Windows.Forms.Panel()
-        Me.Button32 = New System.Windows.Forms.Button()
-        Me.Button33 = New System.Windows.Forms.Button()
-        Me.Button34 = New System.Windows.Forms.Button()
-        Me.Button35 = New System.Windows.Forms.Button()
         Me.Button28 = New System.Windows.Forms.Button()
         Me.Button29 = New System.Windows.Forms.Button()
         Me.solo_sizzlers_10 = New System.Windows.Forms.Button()
         Me.solo_sizzlers_b9 = New System.Windows.Forms.Button()
-        Me.solo_sizzlers_b8 = New System.Windows.Forms.Button()
-        Me.solo_sizzlers_b7 = New System.Windows.Forms.Button()
-        Me.solo_sizzlers_b6 = New System.Windows.Forms.Button()
-        Me.solo_sizzlers_b5 = New System.Windows.Forms.Button()
-        Me.solo_sizzlers_b4 = New System.Windows.Forms.Button()
-        Me.solo_sizzlers_b3 = New System.Windows.Forms.Button()
-        Me.solo_sizzlers_b2 = New System.Windows.Forms.Button()
         Me.pnlORDER_ACTIONS = New System.Windows.Forms.Panel()
         Me.RoundedPanel5 = New Eyelot_Tea_Lantic_POS_AND_SALES_INVENTORY.RoundedPanel()
         Me.Label9 = New System.Windows.Forms.Label()
@@ -87,6 +76,13 @@ Partial Class Form1
         Me.object_7dc1b02f_9e45_45b7_8c4b_736632f6ab07 = New System.Windows.Forms.Panel()
         Me.object_3d470ca6_6b9d_4637_82f4_d0f0b59ad560 = New System.Windows.Forms.Panel()
         Me.object_4b54b9ab_81f5_4d50_8a60_1616af18e957 = New System.Windows.Forms.Panel()
+        Me.solo_sizzlers_b8 = New System.Windows.Forms.Button()
+        Me.solo_sizzlers_b7 = New System.Windows.Forms.Button()
+        Me.solo_sizzlers_b6 = New System.Windows.Forms.Button()
+        Me.solo_sizzlers_b5 = New System.Windows.Forms.Button()
+        Me.solo_sizzlers_b4 = New System.Windows.Forms.Button()
+        Me.solo_sizzlers_b3 = New System.Windows.Forms.Button()
+        Me.solo_sizzlers_b2 = New System.Windows.Forms.Button()
         Me.solo_sizzlers_b1 = New System.Windows.Forms.Button()
         Me.Button19 = New System.Windows.Forms.Button()
         Me.Button18 = New System.Windows.Forms.Button()
@@ -98,6 +94,10 @@ Partial Class Form1
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button20 = New System.Windows.Forms.Button()
+        Me.Button21 = New System.Windows.Forms.Button()
+        Me.Button22 = New System.Windows.Forms.Button()
+        Me.Button23 = New System.Windows.Forms.Button()
         Me.pnlMain.SuspendLayout()
         Me.pnlMenu.SuspendLayout()
         Me.pnlsolo_sizzlers.SuspendLayout()
@@ -142,10 +142,10 @@ Partial Class Form1
         '
         Me.pnlsolo_sizzlers.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.pnlsolo_sizzlers.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.pnlsolo_sizzlers.Controls.Add(Me.Button32)
-        Me.pnlsolo_sizzlers.Controls.Add(Me.Button33)
-        Me.pnlsolo_sizzlers.Controls.Add(Me.Button34)
-        Me.pnlsolo_sizzlers.Controls.Add(Me.Button35)
+        Me.pnlsolo_sizzlers.Controls.Add(Me.Button20)
+        Me.pnlsolo_sizzlers.Controls.Add(Me.Button21)
+        Me.pnlsolo_sizzlers.Controls.Add(Me.Button22)
+        Me.pnlsolo_sizzlers.Controls.Add(Me.Button23)
         Me.pnlsolo_sizzlers.Controls.Add(Me.Button28)
         Me.pnlsolo_sizzlers.Controls.Add(Me.Button29)
         Me.pnlsolo_sizzlers.Controls.Add(Me.solo_sizzlers_10)
@@ -163,140 +163,41 @@ Partial Class Form1
         Me.pnlsolo_sizzlers.Size = New System.Drawing.Size(1053, 973)
         Me.pnlsolo_sizzlers.TabIndex = 12
         '
-        'Button32
-        '
-        Me.Button32.Location = New System.Drawing.Point(800, 698)
-        Me.Button32.Name = "Button32"
-        Me.Button32.Size = New System.Drawing.Size(234, 214)
-        Me.Button32.TabIndex = 15
-        Me.Button32.Text = "Button32"
-        Me.Button32.UseVisualStyleBackColor = True
-        '
-        'Button33
-        '
-        Me.Button33.Location = New System.Drawing.Point(543, 698)
-        Me.Button33.Name = "Button33"
-        Me.Button33.Size = New System.Drawing.Size(234, 214)
-        Me.Button33.TabIndex = 14
-        Me.Button33.Text = "Button33"
-        Me.Button33.UseVisualStyleBackColor = True
-        '
-        'Button34
-        '
-        Me.Button34.Location = New System.Drawing.Point(290, 698)
-        Me.Button34.Name = "Button34"
-        Me.Button34.Size = New System.Drawing.Size(234, 214)
-        Me.Button34.TabIndex = 13
-        Me.Button34.Text = "Button34"
-        Me.Button34.UseVisualStyleBackColor = True
-        '
-        'Button35
-        '
-        Me.Button35.Location = New System.Drawing.Point(14, 698)
-        Me.Button35.Name = "Button35"
-        Me.Button35.Size = New System.Drawing.Size(255, 214)
-        Me.Button35.TabIndex = 12
-        Me.Button35.Text = "Button35"
-        Me.Button35.UseVisualStyleBackColor = True
-        '
         'Button28
         '
+        Me.Button28.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button28.Location = New System.Drawing.Point(800, 466)
         Me.Button28.Name = "Button28"
         Me.Button28.Size = New System.Drawing.Size(234, 214)
         Me.Button28.TabIndex = 11
-        Me.Button28.Text = "Button28"
         Me.Button28.UseVisualStyleBackColor = True
         '
         'Button29
         '
+        Me.Button29.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button29.Location = New System.Drawing.Point(543, 466)
         Me.Button29.Name = "Button29"
         Me.Button29.Size = New System.Drawing.Size(234, 214)
         Me.Button29.TabIndex = 10
-        Me.Button29.Text = "Button29"
         Me.Button29.UseVisualStyleBackColor = True
         '
         'solo_sizzlers_10
         '
+        Me.solo_sizzlers_10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.solo_sizzlers_10.Location = New System.Drawing.Point(290, 466)
         Me.solo_sizzlers_10.Name = "solo_sizzlers_10"
         Me.solo_sizzlers_10.Size = New System.Drawing.Size(234, 214)
         Me.solo_sizzlers_10.TabIndex = 9
-        Me.solo_sizzlers_10.Text = "Button30"
         Me.solo_sizzlers_10.UseVisualStyleBackColor = True
         '
         'solo_sizzlers_b9
         '
+        Me.solo_sizzlers_b9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.solo_sizzlers_b9.Location = New System.Drawing.Point(14, 466)
         Me.solo_sizzlers_b9.Name = "solo_sizzlers_b9"
         Me.solo_sizzlers_b9.Size = New System.Drawing.Size(255, 214)
         Me.solo_sizzlers_b9.TabIndex = 8
-        Me.solo_sizzlers_b9.Text = "Button31"
         Me.solo_sizzlers_b9.UseVisualStyleBackColor = True
-        '
-        'solo_sizzlers_b8
-        '
-        Me.solo_sizzlers_b8.Location = New System.Drawing.Point(800, 241)
-        Me.solo_sizzlers_b8.Name = "solo_sizzlers_b8"
-        Me.solo_sizzlers_b8.Size = New System.Drawing.Size(234, 214)
-        Me.solo_sizzlers_b8.TabIndex = 7
-        Me.solo_sizzlers_b8.Text = "Button24"
-        Me.solo_sizzlers_b8.UseVisualStyleBackColor = True
-        '
-        'solo_sizzlers_b7
-        '
-        Me.solo_sizzlers_b7.Location = New System.Drawing.Point(543, 241)
-        Me.solo_sizzlers_b7.Name = "solo_sizzlers_b7"
-        Me.solo_sizzlers_b7.Size = New System.Drawing.Size(234, 214)
-        Me.solo_sizzlers_b7.TabIndex = 6
-        Me.solo_sizzlers_b7.Text = "Button25"
-        Me.solo_sizzlers_b7.UseVisualStyleBackColor = True
-        '
-        'solo_sizzlers_b6
-        '
-        Me.solo_sizzlers_b6.Location = New System.Drawing.Point(290, 241)
-        Me.solo_sizzlers_b6.Name = "solo_sizzlers_b6"
-        Me.solo_sizzlers_b6.Size = New System.Drawing.Size(234, 214)
-        Me.solo_sizzlers_b6.TabIndex = 5
-        Me.solo_sizzlers_b6.Text = "Button26"
-        Me.solo_sizzlers_b6.UseVisualStyleBackColor = True
-        '
-        'solo_sizzlers_b5
-        '
-        Me.solo_sizzlers_b5.Location = New System.Drawing.Point(14, 241)
-        Me.solo_sizzlers_b5.Name = "solo_sizzlers_b5"
-        Me.solo_sizzlers_b5.Size = New System.Drawing.Size(255, 214)
-        Me.solo_sizzlers_b5.TabIndex = 4
-        Me.solo_sizzlers_b5.Text = "Button27"
-        Me.solo_sizzlers_b5.UseVisualStyleBackColor = True
-        '
-        'solo_sizzlers_b4
-        '
-        Me.solo_sizzlers_b4.Location = New System.Drawing.Point(800, 16)
-        Me.solo_sizzlers_b4.Name = "solo_sizzlers_b4"
-        Me.solo_sizzlers_b4.Size = New System.Drawing.Size(234, 214)
-        Me.solo_sizzlers_b4.TabIndex = 3
-        Me.solo_sizzlers_b4.Text = "Button23"
-        Me.solo_sizzlers_b4.UseVisualStyleBackColor = True
-        '
-        'solo_sizzlers_b3
-        '
-        Me.solo_sizzlers_b3.Location = New System.Drawing.Point(543, 16)
-        Me.solo_sizzlers_b3.Name = "solo_sizzlers_b3"
-        Me.solo_sizzlers_b3.Size = New System.Drawing.Size(234, 214)
-        Me.solo_sizzlers_b3.TabIndex = 2
-        Me.solo_sizzlers_b3.Text = "Button22"
-        Me.solo_sizzlers_b3.UseVisualStyleBackColor = True
-        '
-        'solo_sizzlers_b2
-        '
-        Me.solo_sizzlers_b2.Location = New System.Drawing.Point(290, 16)
-        Me.solo_sizzlers_b2.Name = "solo_sizzlers_b2"
-        Me.solo_sizzlers_b2.Size = New System.Drawing.Size(234, 214)
-        Me.solo_sizzlers_b2.TabIndex = 1
-        Me.solo_sizzlers_b2.Text = "Button21"
-        Me.solo_sizzlers_b2.UseVisualStyleBackColor = True
         '
         'pnlORDER_ACTIONS
         '
@@ -788,6 +689,76 @@ Partial Class Form1
         Me.object_4b54b9ab_81f5_4d50_8a60_1616af18e957.Size = New System.Drawing.Size(227, 925)
         Me.object_4b54b9ab_81f5_4d50_8a60_1616af18e957.TabIndex = 7
         '
+        'solo_sizzlers_b8
+        '
+        Me.solo_sizzlers_b8.BackgroundImage = Global.Eyelot_Tea_Lantic_POS_AND_SALES_INVENTORY.My.Resources.Resources.Image__11_
+        Me.solo_sizzlers_b8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.solo_sizzlers_b8.Location = New System.Drawing.Point(800, 241)
+        Me.solo_sizzlers_b8.Name = "solo_sizzlers_b8"
+        Me.solo_sizzlers_b8.Size = New System.Drawing.Size(234, 214)
+        Me.solo_sizzlers_b8.TabIndex = 7
+        Me.solo_sizzlers_b8.UseVisualStyleBackColor = True
+        '
+        'solo_sizzlers_b7
+        '
+        Me.solo_sizzlers_b7.BackgroundImage = Global.Eyelot_Tea_Lantic_POS_AND_SALES_INVENTORY.My.Resources.Resources.Image__10_1
+        Me.solo_sizzlers_b7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.solo_sizzlers_b7.Location = New System.Drawing.Point(543, 241)
+        Me.solo_sizzlers_b7.Name = "solo_sizzlers_b7"
+        Me.solo_sizzlers_b7.Size = New System.Drawing.Size(234, 214)
+        Me.solo_sizzlers_b7.TabIndex = 6
+        Me.solo_sizzlers_b7.UseVisualStyleBackColor = True
+        '
+        'solo_sizzlers_b6
+        '
+        Me.solo_sizzlers_b6.BackgroundImage = Global.Eyelot_Tea_Lantic_POS_AND_SALES_INVENTORY.My.Resources.Resources.Image__9_1
+        Me.solo_sizzlers_b6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.solo_sizzlers_b6.Location = New System.Drawing.Point(290, 241)
+        Me.solo_sizzlers_b6.Name = "solo_sizzlers_b6"
+        Me.solo_sizzlers_b6.Size = New System.Drawing.Size(234, 214)
+        Me.solo_sizzlers_b6.TabIndex = 5
+        Me.solo_sizzlers_b6.UseVisualStyleBackColor = True
+        '
+        'solo_sizzlers_b5
+        '
+        Me.solo_sizzlers_b5.BackgroundImage = Global.Eyelot_Tea_Lantic_POS_AND_SALES_INVENTORY.My.Resources.Resources.Image__8_1
+        Me.solo_sizzlers_b5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.solo_sizzlers_b5.Location = New System.Drawing.Point(14, 241)
+        Me.solo_sizzlers_b5.Name = "solo_sizzlers_b5"
+        Me.solo_sizzlers_b5.Size = New System.Drawing.Size(255, 214)
+        Me.solo_sizzlers_b5.TabIndex = 4
+        Me.solo_sizzlers_b5.UseVisualStyleBackColor = True
+        '
+        'solo_sizzlers_b4
+        '
+        Me.solo_sizzlers_b4.BackgroundImage = Global.Eyelot_Tea_Lantic_POS_AND_SALES_INVENTORY.My.Resources.Resources.Image__7_1
+        Me.solo_sizzlers_b4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.solo_sizzlers_b4.Location = New System.Drawing.Point(800, 16)
+        Me.solo_sizzlers_b4.Name = "solo_sizzlers_b4"
+        Me.solo_sizzlers_b4.Size = New System.Drawing.Size(234, 214)
+        Me.solo_sizzlers_b4.TabIndex = 3
+        Me.solo_sizzlers_b4.UseVisualStyleBackColor = True
+        '
+        'solo_sizzlers_b3
+        '
+        Me.solo_sizzlers_b3.BackgroundImage = Global.Eyelot_Tea_Lantic_POS_AND_SALES_INVENTORY.My.Resources.Resources.Image__6_1
+        Me.solo_sizzlers_b3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.solo_sizzlers_b3.Location = New System.Drawing.Point(543, 16)
+        Me.solo_sizzlers_b3.Name = "solo_sizzlers_b3"
+        Me.solo_sizzlers_b3.Size = New System.Drawing.Size(234, 214)
+        Me.solo_sizzlers_b3.TabIndex = 2
+        Me.solo_sizzlers_b3.UseVisualStyleBackColor = True
+        '
+        'solo_sizzlers_b2
+        '
+        Me.solo_sizzlers_b2.BackgroundImage = Global.Eyelot_Tea_Lantic_POS_AND_SALES_INVENTORY.My.Resources.Resources.Image__5_1
+        Me.solo_sizzlers_b2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.solo_sizzlers_b2.Location = New System.Drawing.Point(290, 16)
+        Me.solo_sizzlers_b2.Name = "solo_sizzlers_b2"
+        Me.solo_sizzlers_b2.Size = New System.Drawing.Size(234, 214)
+        Me.solo_sizzlers_b2.TabIndex = 1
+        Me.solo_sizzlers_b2.UseVisualStyleBackColor = True
+        '
         'solo_sizzlers_b1
         '
         Me.solo_sizzlers_b1.BackgroundImage = Global.Eyelot_Tea_Lantic_POS_AND_SALES_INVENTORY.My.Resources.Resources.Image__4_1
@@ -908,6 +879,42 @@ Partial Class Form1
         Me.Button1.TabIndex = 0
         Me.Button1.UseVisualStyleBackColor = True
         '
+        'Button20
+        '
+        Me.Button20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button20.Location = New System.Drawing.Point(800, 692)
+        Me.Button20.Name = "Button20"
+        Me.Button20.Size = New System.Drawing.Size(234, 214)
+        Me.Button20.TabIndex = 15
+        Me.Button20.UseVisualStyleBackColor = True
+        '
+        'Button21
+        '
+        Me.Button21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button21.Location = New System.Drawing.Point(543, 692)
+        Me.Button21.Name = "Button21"
+        Me.Button21.Size = New System.Drawing.Size(234, 214)
+        Me.Button21.TabIndex = 14
+        Me.Button21.UseVisualStyleBackColor = True
+        '
+        'Button22
+        '
+        Me.Button22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button22.Location = New System.Drawing.Point(290, 692)
+        Me.Button22.Name = "Button22"
+        Me.Button22.Size = New System.Drawing.Size(234, 214)
+        Me.Button22.TabIndex = 13
+        Me.Button22.UseVisualStyleBackColor = True
+        '
+        'Button23
+        '
+        Me.Button23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button23.Location = New System.Drawing.Point(14, 692)
+        Me.Button23.Name = "Button23"
+        Me.Button23.Size = New System.Drawing.Size(255, 214)
+        Me.Button23.TabIndex = 12
+        Me.Button23.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(120.0!, 120.0!)
@@ -1004,10 +1011,6 @@ Partial Class Form1
     Friend WithEvents solo_sizzlers_b3 As Button
     Friend WithEvents solo_sizzlers_b2 As Button
     Friend WithEvents solo_sizzlers_b1 As Button
-    Friend WithEvents Button32 As Button
-    Friend WithEvents Button33 As Button
-    Friend WithEvents Button34 As Button
-    Friend WithEvents Button35 As Button
     Friend WithEvents Button28 As Button
     Friend WithEvents Button29 As Button
     Friend WithEvents solo_sizzlers_10 As Button
@@ -1018,4 +1021,8 @@ Partial Class Form1
     Friend WithEvents solo_sizzlers_b5 As Button
     Friend WithEvents Button36 As Button
     Friend WithEvents Label4 As Label
+    Friend WithEvents Button20 As Button
+    Friend WithEvents Button21 As Button
+    Friend WithEvents Button22 As Button
+    Friend WithEvents Button23 As Button
 End Class

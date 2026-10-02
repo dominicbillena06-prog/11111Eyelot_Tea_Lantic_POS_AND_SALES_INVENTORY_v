@@ -215,5 +215,26 @@
   <ItemGroup>
     <None Include="Resources\Image %284%291.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image %285%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image %286%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image %287%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image %288%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image %289%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image %2810%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image %2811%29.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
