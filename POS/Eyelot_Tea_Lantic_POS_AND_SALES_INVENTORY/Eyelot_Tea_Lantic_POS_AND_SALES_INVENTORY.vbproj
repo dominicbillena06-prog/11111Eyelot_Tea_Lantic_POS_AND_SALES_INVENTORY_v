@@ -203,5 +203,8 @@
   <ItemGroup>
     <None Include="Resources\Gemini_Generated_Image_fizzjafizzjafizz-removebg-preview.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7068006.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
