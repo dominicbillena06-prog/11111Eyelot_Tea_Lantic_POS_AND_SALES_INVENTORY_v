@@ -52,9 +52,11 @@ Partial Class Login
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.pnlHeader.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'pnlHeader
@@ -246,10 +248,11 @@ Partial Class Login
         'txtPassword
         '
         Me.txtPassword.BackColor = System.Drawing.Color.LightYellow
+        Me.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.txtPassword.Font = New System.Drawing.Font("Segoe UI", 9.900001!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPassword.Location = New System.Drawing.Point(634, 543)
+        Me.txtPassword.Location = New System.Drawing.Point(634, 550)
         Me.txtPassword.Name = "txtPassword"
-        Me.txtPassword.Size = New System.Drawing.Size(530, 51)
+        Me.txtPassword.Size = New System.Drawing.Size(530, 44)
         Me.txtPassword.TabIndex = 6
         '
         'btnLogin
@@ -270,6 +273,7 @@ Partial Class Login
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.LawnGreen
+        Me.Panel1.Controls.Add(Me.PictureBox2)
         Me.Panel1.Controls.Add(Me.Label5)
         Me.Panel1.Controls.Add(Me.Label6)
         Me.Panel1.Controls.Add(Me.Button1)
@@ -424,6 +428,18 @@ Partial Class Login
         Me.Panel3.Size = New System.Drawing.Size(528, 2)
         Me.Panel3.TabIndex = 17
         '
+        'PictureBox2
+        '
+        Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox2.BackgroundImage = Global.Eyelot_Tea_Lantic_POS_AND_SALES_INVENTORY.My.Resources.Resources.Gemini_Generated_Image_fizzjafizzjafizz_removebg_preview
+        Me.PictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.PictureBox2.Location = New System.Drawing.Point(589, -101)
+        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(6)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(2135, 355)
+        Me.PictureBox2.TabIndex = 14
+        Me.PictureBox2.TabStop = False
+        '
         'Login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(16.0!, 31.0!)
@@ -449,6 +465,7 @@ Partial Class Login
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -484,4 +501,5 @@ Partial Class Login
     Friend WithEvents Button6 As Button
     Friend WithEvents Panel2 As Panel
     Friend WithEvents Panel3 As Panel
+    Friend WithEvents PictureBox2 As PictureBox
 End Class
