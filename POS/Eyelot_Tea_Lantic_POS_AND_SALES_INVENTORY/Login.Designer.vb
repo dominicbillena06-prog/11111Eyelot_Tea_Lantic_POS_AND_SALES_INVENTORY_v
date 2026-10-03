@@ -218,7 +218,7 @@ Partial Class Login
         Me.lblName.AutoSize = True
         Me.lblName.Font = New System.Drawing.Font("Segoe UI", 9.900001!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblName.ForeColor = System.Drawing.Color.DarkGreen
-        Me.lblName.Location = New System.Drawing.Point(626, 322)
+        Me.lblName.Location = New System.Drawing.Point(629, 380)
         Me.lblName.Name = "lblName"
         Me.lblName.Size = New System.Drawing.Size(132, 46)
         Me.lblName.TabIndex = 3
@@ -229,7 +229,7 @@ Partial Class Login
         Me.lblPassword.AutoSize = True
         Me.lblPassword.Font = New System.Drawing.Font("Segoe UI", 9.900001!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblPassword.ForeColor = System.Drawing.Color.DarkGreen
-        Me.lblPassword.Location = New System.Drawing.Point(626, 486)
+        Me.lblPassword.Location = New System.Drawing.Point(629, 544)
         Me.lblPassword.Name = "lblPassword"
         Me.lblPassword.Size = New System.Drawing.Size(189, 46)
         Me.lblPassword.TabIndex = 4
@@ -240,7 +240,7 @@ Partial Class Login
         Me.TextBox1.BackColor = System.Drawing.Color.LightYellow
         Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox1.Font = New System.Drawing.Font("Segoe UI", 9.900001!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(634, 367)
+        Me.TextBox1.Location = New System.Drawing.Point(637, 425)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(530, 44)
         Me.TextBox1.TabIndex = 5
@@ -250,7 +250,7 @@ Partial Class Login
         Me.txtPassword.BackColor = System.Drawing.Color.LightYellow
         Me.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.txtPassword.Font = New System.Drawing.Font("Segoe UI", 9.900001!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPassword.Location = New System.Drawing.Point(634, 550)
+        Me.txtPassword.Location = New System.Drawing.Point(637, 608)
         Me.txtPassword.Name = "txtPassword"
         Me.txtPassword.Size = New System.Drawing.Size(530, 44)
         Me.txtPassword.TabIndex = 6
@@ -263,7 +263,7 @@ Partial Class Login
         Me.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnLogin.Font = New System.Drawing.Font("Microsoft Uighur", 12.0!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnLogin.ForeColor = System.Drawing.Color.DarkGreen
-        Me.btnLogin.Location = New System.Drawing.Point(54, 618)
+        Me.btnLogin.Location = New System.Drawing.Point(57, 676)
         Me.btnLogin.Name = "btnLogin"
         Me.btnLogin.Size = New System.Drawing.Size(1334, 45)
         Me.btnLogin.TabIndex = 7
@@ -405,7 +405,7 @@ Partial Class Login
         Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button6.Font = New System.Drawing.Font("Microsoft Uighur", 12.0!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button6.ForeColor = System.Drawing.Color.DarkGreen
-        Me.Button6.Location = New System.Drawing.Point(64, 669)
+        Me.Button6.Location = New System.Drawing.Point(67, 727)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(1334, 45)
         Me.Button6.TabIndex = 15
@@ -415,7 +415,7 @@ Partial Class Login
         'Panel2
         '
         Me.Panel2.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Panel2.Location = New System.Drawing.Point(634, 412)
+        Me.Panel2.Location = New System.Drawing.Point(637, 470)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(528, 2)
         Me.Panel2.TabIndex = 16
@@ -423,7 +423,7 @@ Partial Class Login
         'Panel3
         '
         Me.Panel3.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Panel3.Location = New System.Drawing.Point(634, 592)
+        Me.Panel3.Location = New System.Drawing.Point(637, 650)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(528, 2)
         Me.Panel3.TabIndex = 17
